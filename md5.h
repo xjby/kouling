@@ -80,4 +80,5 @@ typedef unsigned int bit32;
   (a) += (b); \
 }
 
-void MD5Hash(string input, bit32 *state);
+void MD5Hash(string inputs[4], bit32 states[4][4]);
+void MD5Hash_4x(string inputs[4], bit32 states[4][4]);
