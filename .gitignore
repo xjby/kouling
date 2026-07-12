@@ -1,0 +1,41 @@
+# 编译产物
+*.o
+*.out
+*.exe
+*.obj
+
+# 可执行文件
+serial/main_serial
+simd/main_neon
+openmp/main_omp
+mpi/main_mpi
+gpu/main_gpu
+
+# 性能数据
+perf.data
+perf.data.old
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 训练数据 (大型口令字典不上传)
+rockyou.txt
+*.gz
+*.tar
+
+# PBS 输出
+test.e
+test.o
+*.e
+*.o
+
+# macOS
+.DS_Store
+
+# 备份文件
+*.backup
